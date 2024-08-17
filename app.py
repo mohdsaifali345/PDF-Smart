@@ -72,8 +72,9 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config("PDFAI")
-    st.header("Chat with PDF using Gemini💁")
+    st.set_page_config("PDF Smart")
+    st.header("Welcome To PDF Smart (Where AI Meets the PDF)")
+    st.header("Chat with PDF using AI💁")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
 
